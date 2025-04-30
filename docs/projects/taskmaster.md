@@ -2,7 +2,7 @@
 theme: page
 prev:
   text: 'Projects'
-  link: './projects/'
+  link: '/projects'
 ---
 
 # TaskMaster
