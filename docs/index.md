@@ -5,7 +5,7 @@ hero:
   text: "Hybrid Freelance Developer & IT Student"
   tagline: "Kathmandu, Nepal"
   image:
-    src: '/profile.png'
+    src: '/img/profile.png'
     alt: 'Pratik Thapa'
   actions:
     - theme: brand

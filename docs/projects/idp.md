@@ -3,14 +3,11 @@
 # Interest Discovery Platform
 
 ## Introduction
-This project was done in collaboration with my classmate and desk partner **Sakriya Pyakurel** who played a crucial role in training the models as well as making the models available using fastapi
+This project was done in collaboration with my classmate and desk partner **Sakriya Pyakurel** who played a crucial role in training the models as well as making the models available using FastApi.
 
-We set out to build a system that analyzes users’ posts, the types of content they like, and
-their comments to uncover their real interests and serve them a personalized feed. To
-achieve this, we used a labeled dataset of Reddit posts from 1,014 subreddits (collected
-up to 2018). We developed two models: one that categorizes posts into topics like
-electronics, sports, and more, and another that predicts a user’s interests based on their
-interactions.
+
+
+This project 
 ### Scope
 The Interest Discovery Platform aims to help users uncover hidden interests based on the
 analysis of their natural online activities—posts, comments, and material that they enjoy.

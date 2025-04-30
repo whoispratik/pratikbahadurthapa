@@ -1,1 +1,8 @@
 node_modules/
+# VitePress build output
+# if you’re building into .vitepress/dist or docs/.vitepress/dist
+.vitepress/dist/
+dist/
+
+# Optional local settings
+.DS_Store
