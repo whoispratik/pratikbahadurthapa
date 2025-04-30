@@ -5,9 +5,8 @@
 ## Introduction
 This project was done in collaboration with my classmate and desk partner **Sakriya Pyakurel** who played a crucial role in training the models as well as making the models available using FastApi.
 
+At its core, this project is a web application that functions as a social media platform, closely modeled after Reddit. However, unlike Reddit, where categorization and community engagement rely heavily on user input, our system automatically classifies each post into predefined categories and subreddit-like groupings using a post classification model. This automation allows for a deeper layer of analysis: the categorized content feeds directly into an interest prediction model, which continuously learns about a user’s preferences based on their interactions—what they post, like, or comment on. Together, these models form the foundation for a dynamic, personalized content stream we call the interest feed. The feed evolves as the user engages with the platform, offering a unique form of interest discovery without the need for users to explicitly define their preferences.
 
-
-This project 
 ### Scope
 The Interest Discovery Platform aims to help users uncover hidden interests based on the
 analysis of their natural online activities—posts, comments, and material that they enjoy.
