@@ -12,8 +12,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About Me', link: '/about-me' },
-      { text: 'Projects', link: '/projects/index'},
+      { text: 'About Me', link: '/about-me/' },
+      { text: 'Projects', link: '/projects/index/'},
     ],
     sidebar:{
 
@@ -21,9 +21,9 @@ export default defineConfig({
         {
           text: 'Projects',
           items: [
-            { text: 'Task Master', link: '/projects/task-master' },
-            { text: 'Interest Discovery Platform', link: '/projects/idp' },
-            { text: 'EstateInsight', link: '/projects/plp'},
+            { text: 'Task Master', link: '/projects/task-master/' },
+            { text: 'Interest Discovery Platform', link: '/projects/idp/' },
+            { text: 'EstateInsight', link: '/projects/plp/'},
           ]
         }
       ],
