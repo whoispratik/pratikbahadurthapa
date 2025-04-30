@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: View Projects
-      link: /projects/
+      link: /projects
     - theme: alt
       text: About Me
-      link: /about-me/
+      link: /about-me
 
 features:
   - title: Frontend Development
