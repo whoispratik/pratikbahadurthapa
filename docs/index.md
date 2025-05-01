@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: About Me
       link: /about-me
+    - theme: alt
+      text: Resume 📃
+      link: /pratiksresume.pdf
 
 features:
   - title: Frontend Development
