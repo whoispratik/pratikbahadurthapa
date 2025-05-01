@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lastUpdated: true,
+  lastUpdated: false,
   title: "Pratik Thapa",
-  description: "Portfolio of a hybrid freelance developer from Kathmandu, Nepal",
+  description: "Portfolio of a Vue.js, Inertia.js & Laravel developer integrating ML into real-world web projects.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About Me', link: '/about-me' },
-      { text: 'Projects', link: '/projects/index'},
+      { text: 'Projects', link: '/projects/'},
     ],
     sidebar:{
 

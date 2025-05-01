@@ -1,0 +1,74 @@
+/* ────────────────────────────────────────────────────────────────
+   REFINED EMERALD OVERRIDES
+───────────────────────────────────────────────────────────────── */
+
+/* 1. Refined “emerald” scale */
+:root {
+    /* text-on-soft & solid backgrounds */
+    --emerald-1:    #064e3b; /* dark, for text & strong accents */
+    --emerald-2:    #065f46; /* primary emerald for brand elements */
+    --emerald-3:    #047857; /* for hover states & bg accents */
+    --emerald-soft: rgba(6, 95, 70, 0.12); /* very gentle fill */
+  
+    /* swap in for green, brand, success */
+    --vp-c-green-1: var(--emerald-1);
+    --vp-c-green-2: var(--emerald-2);
+    --vp-c-green-3: var(--emerald-3);
+    --vp-c-green-soft: var(--emerald-soft);
+  
+    --vp-c-brand-1: var(--emerald-1);
+    --vp-c-brand-2: var(--emerald-2);
+    --vp-c-brand-3: var(--emerald-3);
+    --vp-c-brand-soft: var(--emerald-soft);
+  
+    --vp-c-success-1: var(--emerald-1);
+    --vp-c-success-2: var(--emerald-2);
+    --vp-c-success-3: var(--emerald-3);
+    --vp-c-success-soft: var(--emerald-soft);
+  }
+  
+  /* 2. Tweak dark mode for eye-friendly contrast */
+  .dark {
+    /* slightly brighter on dark bg */
+    --emerald-1:    #16a34a; /* emerald-600 */
+    --emerald-2:    #16b851; /* emerald-500 */
+    --emerald-3:    #04d651; /* emerald-400 */
+    --emerald-soft: rgba(34, 197, 94, 0.14);
+  
+    --vp-c-green-1: var(--emerald-1);
+    --vp-c-green-2: var(--emerald-2);
+    --vp-c-green-3: var(--emerald-3);
+    --vp-c-green-soft: var(--emerald-soft);
+  
+    --vp-c-brand-1: var(--emerald-1);
+    --vp-c-brand-2: var(--emerald-2);
+    --vp-c-brand-3: var(--emerald-3);
+    --vp-c-brand-soft: var(--emerald-soft);
+  
+    --vp-c-success-1: var(--emerald-1);
+    --vp-c-success-2: var(--emerald-2);
+    --vp-c-success-3: var(--emerald-3);
+    --vp-c-success-soft: var(--emerald-soft);
+  }
+  
+  /* 3. Buttons & links: gentler, less glaring */
+  :root {
+    /* Buttons: use medium emerald with more contrast on hover/active */
+    --vp-button-brand-bg:         var(--emerald-1);
+    --vp-button-brand-hover-bg:   var(--emerald-2);
+    --vp-button-brand-active-bg:  var(--emerald-1);
+  
+    /* Link colors: primary emerald-2, darker on hover */
+    --vp-c-link-text:             var(--emerald-2);
+    --vp-c-link-hover-text:       var(--emerald-3);
+    --vp-c-link-active-text:      var(--emerald-1);
+  }
+  
+  /* 4. Code accents: softer glow */
+  :root {
+    --vp-code-color:             var(--emerald-1);
+    --vp-code-link-color:        var(--emerald-2);
+    --vp-code-link-hover-color:  var(--emerald-3);
+    --vp-code-bg:                rgba(6, 95, 70, 0.08);
+  }
+  

@@ -1,4 +1,6 @@
-
+---
+description: "Explore our ML-powered Interest Discovery Platform: Reddit-style automatic post classification & personalized FastAPI-driven content feeds for seamless interest discovery."
+---
 
 # Interest Discovery Platform
 

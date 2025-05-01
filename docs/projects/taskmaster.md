@@ -3,6 +3,7 @@ theme: page
 prev:
   text: 'Projects'
   link: '/projects'
+description: "Task Master is a web-based task management tool that improves team communication, streamlines task assignments, and enhances productivity for small to mid-sized companies—built using Vue.js and Firebase."
 ---
 
 # TaskMaster
