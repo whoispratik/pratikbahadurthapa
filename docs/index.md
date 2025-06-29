@@ -5,8 +5,8 @@ hero:
   text: "Hybrid Freelance Developer & IT Student"
   tagline: "Kathmandu, Nepal"
   image:
-    src: '/img/profile.png'
-    alt: 'Pratik Thapa'
+    src: "/img/profile.png"
+    alt: "Pratik Thapa"
   actions:
     - theme: brand
       text: View Projects
@@ -28,5 +28,4 @@ features:
   - title: Machine Learning
     icon: 🤖
     details: Embedding ML models into web interfaces for data-driven features
-
 ---
