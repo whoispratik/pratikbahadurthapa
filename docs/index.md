@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: "Pratik Thapa"
-  text: "Hybrid Freelance Developer & IT Student"
+  text: "Software Developer & IT Student"
   tagline: "Kathmandu, Nepal"
   image:
     src: "/img/profile.png"
