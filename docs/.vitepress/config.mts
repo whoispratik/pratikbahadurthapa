@@ -30,7 +30,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/whoispratik" },
       {
         icon: "linkedin",
         link: "https://www.linkedin.com/in/pratik-bahadur-thapa-b9964919a/",
